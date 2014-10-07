@@ -9,7 +9,9 @@ and add the CSS rules as described in the challenge
 @import url(https://fonts.googleapis.com/css?family=Lato:400,300);
 
 body {
-	
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 18px;
+	font-weight: 300;
 }
 
 header {
