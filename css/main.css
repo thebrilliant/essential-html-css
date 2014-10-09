@@ -12,20 +12,55 @@ body {
 	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
 	font-size: 18px;
 	font-weight: 300;
+
+	background-image: url(../img/background.jpg);
+}
+
+a {
+	text-decoration: none;
+	color: #0000AA;
+}
+
+h1, h2, h3 {
+	font-family: 'Raleway', Helvetica;
+}
+
+h1 {
+	font-size: 300%;
+	margin: 0;
+}
+
+h2, h3 {
+	color: #505050;
 }
 
 header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px;
+	border-bottom-color: #EA4A00;
+	color: #FFFFFF;
+}
 
+header.h2 {
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: 0;
 }
 
 main {
-
+	margin-left: 30%;
 }
 
-article {
+section {
 
 }
 
 footer {
-
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: 5px;
+	border-top-color: #EC791F;
+	font-size: 80%;
+	text-align: right;
 }
