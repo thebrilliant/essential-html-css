@@ -14,11 +14,18 @@ body {
 	font-weight: 300;
 
 	background-image: url(../img/background.jpg);
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
 }
 
 a {
 	text-decoration: none;
 	color: #0000AA;
+}
+
+a:hover, a:focus {
+	color: #0000EE;
 }
 
 h1, h2, h3 {
@@ -34,11 +41,19 @@ h2, h3 {
 	color: #505050;
 }
 
+h2 {
+	font-size: 150%;
+}
+
+h3 {
+	font-size: 125%;
+}
+
 header {
 	padding: 1em;
 	background-color: #FA5A0F;
-	border-bottom: 5px;
-	border-bottom-color: #EA4A00;
+	border: 0px 0px 5px 0px;
+	border-color: #EA4A00;
 	color: #FFFFFF;
 }
 
@@ -49,18 +64,29 @@ header.h2 {
 }
 
 main {
-	margin-left: 30%;
+	margin: 20px 20px 20px 30%;
+	background-image: url(../img/ricepaper_v3.png);
+	opacity: 0.9;
 }
 
 section {
+	padding: 1em;
+}
 
+section.menu {
+	background-color: rgba(207, 205, 140, .5);
+	font-weight: 400;
+	font-size: 80%;
+	font-style: italic;
+	margin-left: 1em;
+	margin-bottom: 1em;
 }
 
 footer {
 	padding: 1em;
 	background-color: #FC892F;
-	border-top: 5px;
-	border-top-color: #EC791F;
+	border: 5px 0px 0px 0px;
+	border-color: #EC791F;
 	font-size: 80%;
 	text-align: right;
 }
