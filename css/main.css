@@ -73,13 +73,15 @@ section {
 	padding: 1em;
 }
 
-section.menu {
+#menu {
 	background-color: rgba(207, 205, 140, .5);
-	font-weight: 400;
 	font-size: 80%;
-	font-style: italic;
 	margin-left: 1em;
 	margin-bottom: 1em;
+}
+
+#menu dt {
+	font-weight: 400;
 }
 
 footer {
